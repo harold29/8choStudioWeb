@@ -1,0 +1,75 @@
+$ocho_amarillo: #fdd22a
+
+#first-row, #second-row
+    background-color: $ocho_amarillo
+
+#first-row
+    #sn-col-container
+        padding-top: 4%
+        padding-right: 5%
+        .sn-col
+            text-align: center
+            position: relative
+            height: 120px
+            padding-left: 0
+            padding-right: 0
+            padding-top: 2%
+            .white-circle
+                width: 10px
+                height: 10px
+                background-color: white
+                border-radius: 50%
+                position: absolute
+            .left-0
+                left: 0
+            .right-0
+                right: 0
+            .top-0
+                top: 0
+            .bottom-0
+                bottom: 0
+            .sn-container
+                .sn-link
+                    .sn-icon
+                        text-align: center
+                        width: 75%
+                    &:hover + .description
+                        visibility: visible
+                .description
+                    color: black
+                    font-size: 11px
+                    padding-right: 10%
+                    padding-left: 10%
+                    visibility: hidden
+             
+
+
+#second-row
+    padding-bottom: 3%
+    #logo-col
+        padding-right: 0
+        padding-left: 0
+        .ocho-logo
+            width: 75%
+    #slogan-col
+        .ocho-slogan
+            width: 35%
+            position: absolute
+            bottom: 15%
+            right: 22%
+
+
+
+#third-row
+    padding-top: 1%
+    .gif-col
+        display: block
+        padding-left: 0
+        padding-right: 0
+        .decoration
+            width: 28%
+        .service-link
+            .service-gif
+                width: 140px
+        .decoration, .service-gif
+            display: inline-block

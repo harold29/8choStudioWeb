@@ -1,0 +1,63 @@
+#first-row, #second-row {
+  background-color: #fdd22a; }
+
+#first-row #sn-col-container {
+  padding-top: 4%;
+  padding-right: 5%; }
+  #first-row #sn-col-container .sn-col {
+    text-align: center;
+    position: relative;
+    height: 120px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 2%; }
+    #first-row #sn-col-container .sn-col .white-circle {
+      width: 10px;
+      height: 10px;
+      background-color: white;
+      border-radius: 50%;
+      position: absolute; }
+    #first-row #sn-col-container .sn-col .left-0 {
+      left: 0; }
+    #first-row #sn-col-container .sn-col .right-0 {
+      right: 0; }
+    #first-row #sn-col-container .sn-col .top-0 {
+      top: 0; }
+    #first-row #sn-col-container .sn-col .bottom-0 {
+      bottom: 0; }
+    #first-row #sn-col-container .sn-col .sn-container .sn-link .sn-icon {
+      text-align: center;
+      width: 75%; }
+    #first-row #sn-col-container .sn-col .sn-container .sn-link:hover + .description {
+      visibility: visible; }
+    #first-row #sn-col-container .sn-col .sn-container .description {
+      color: black;
+      font-size: 11px;
+      padding-right: 10%;
+      padding-left: 10%;
+      visibility: hidden; }
+
+#second-row #logo-col {
+  padding-right: 0;
+  padding-left: 0; }
+  #second-row #logo-col .ocho-logo {
+    width: 75%; }
+
+#second-row #slogan-col .ocho-slogan {
+  width: 35%;
+  position: absolute;
+  bottom: 15%;
+  right: 22%; }
+
+#third-row {
+  padding-top: 1%; }
+  #third-row .gif-col {
+    display: block;
+    padding-left: 0;
+    padding-right: 0; }
+    #third-row .gif-col .decoration {
+      width: 28%; }
+    #third-row .gif-col .service-link .service-gif {
+      width: 140px; }
+    #third-row .gif-col .decoration, #third-row .gif-col .service-gif {
+      display: inline-block; }
