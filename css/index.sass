@@ -1,16 +1,41 @@
-$ocho_amarillo: #fdd22a
+$ocho_amarillo: #fdd109
+
+
+@import index_responsive
+
+.off-canvas-wrapper
+    background-color: $ocho_amarillo
 
 #first-row, #second-row
     background-color: $ocho_amarillo
 
+#offCanvas 
+    background-color: $ocho_amarillo
+    form 
+        margin-top: 50%
+        padding-left: 5%
+        padding-right: 5%
+        textarea
+            height: 150px
+        button 
+            background-color: black
+            color: $ocho_amarillo
+            &:hover
+                box-shadow: 1px 2px 5px 4px black;
+                transition: box-shadow 0.2s ease-in-out
+
+.section
+    height: 100vh
+
 #first-row
+    height: 20vh
     #sn-col-container
         padding-top: 4%
         padding-right: 5%
         .sn-col
             text-align: center
             position: relative
-            height: 120px
+            height: 120px !important
             padding-left: 0
             padding-right: 0
             padding-top: 2%
@@ -30,6 +55,8 @@ $ocho_amarillo: #fdd22a
                 bottom: 0
             .sn-container
                 .sn-link
+                    position: relative
+                    z-index: 2
                     .sn-icon
                         text-align: center
                         width: 75%
@@ -45,23 +72,27 @@ $ocho_amarillo: #fdd22a
 
 
 #second-row
-    padding-bottom: 3%
+    height: 60vh
+    padding-bottom: 7%
     #logo-col
         padding-right: 0
         padding-left: 0
         .ocho-logo
-            width: 75%
+            width: 65%
     #slogan-col
         .ocho-slogan
-            width: 35%
+            width: 32%
             position: absolute
-            bottom: 15%
-            right: 22%
+            top: 22%
+            right: 23%
+            z-index: 1
 
 
 
 #third-row
+    height: 20vh
     padding-top: 1%
+    background-color: white
     .gif-col
         display: block
         padding-left: 0
@@ -70,6 +101,10 @@ $ocho_amarillo: #fdd22a
             width: 28%
         .service-link
             .service-gif
-                width: 140px
+                width: 35%
         .decoration, .service-gif
             display: inline-block
+    .large-2
+        .service-link  
+            .service-gif
+                width: 45%

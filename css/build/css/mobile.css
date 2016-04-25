@@ -1,0 +1,135 @@
+.off-canvas-wrapper, .off-canvas-content {
+  background-color: #fdd109; }
+
+.pcontainer, body {
+  background-color: #fdd109; }
+
+#offCanvas {
+  background-color: #fdd109; }
+  #offCanvas form {
+    margin-top: 50%;
+    padding-left: 5%;
+    padding-right: 5%; }
+    #offCanvas form textarea {
+      height: 150px; }
+    #offCanvas form button {
+      background-color: black;
+      color: #fdd109; }
+      #offCanvas form button:hover {
+        box-shadow: 1px 2px 5px 4px black;
+        transition: box-shadow 0.2s ease-in-out; }
+
+.white-circle {
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 50%; }
+
+.left-0 {
+  left: 0px; }
+
+.right-0 {
+  right: 0px; }
+
+.top-0 {
+  top: 0px; }
+
+.bottom-0 {
+  bottom: 0; }
+
+.section #first-row {
+  padding-top: 10%; }
+  .section #first-row .circle-container {
+    text-align: center; }
+    .section #first-row .circle-container .white-circle {
+      display: inline-block; }
+
+.section #second-row {
+  text-align: left; }
+  .section #second-row #ocho-logo {
+    width: 70%; }
+
+.section #third-row {
+  text-align: left;
+  background-color: #fdd109; }
+  .section #third-row .slogan-replace {
+    font-size: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -10%;
+    margin-bottom: 10%; }
+
+.section #fourth-row, .section #fifth-row {
+  margin-right: 10%;
+  margin-left: 10%; }
+  .section #fourth-row .sn-container, .section #fifth-row .sn-container {
+    text-align: center;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    height: 80px;
+    width: 33%; }
+    .section #fourth-row .sn-container .white-circle, .section #fifth-row .sn-container .white-circle {
+      position: absolute; }
+    .section #fourth-row .sn-container .sn-link .sn-icon, .section #fifth-row .sn-container .sn-link .sn-icon {
+      width: 80%;
+      margin-top: 10%; }
+
+@media (min-width: 670px) {
+  .white-circle {
+    width: 6px;
+    height: 6px; }
+  .section #second-row #ocho-logo {
+    width: 40%; }
+  .section #third-row .slogan-replace {
+    font-size: 30px;
+    margin-right: 45%; }
+  .section #fourth-row .sn-container, .section #fifth-row .sn-container {
+    height: 176px;
+    width: 33%; }
+    .section #fourth-row .sn-container .sn-link .sn-icon, .section #fifth-row .sn-container .sn-link .sn-icon {
+      width: 50% !important;
+      margin-top: 22% !important; } }
+
+@media (min-width: 540px) and (max-width: 669px) {
+  .white-circle {
+    width: 6px;
+    height: 6px; }
+  .section #second-row #ocho-logo {
+    width: 50%; }
+  .section #third-row .slogan-replace {
+    font-size: 30px; }
+  .section #fourth-row .sn-container, .section #fifth-row .sn-container {
+    height: 102px;
+    width: 33%; }
+    .section #fourth-row .sn-container .sn-link .sn-icon, .section #fifth-row .sn-container .sn-link .sn-icon {
+      width: 60% !important;
+      margin-top: 10% !important; } }
+
+@media (min-width: 460px) and (max-width: 539px) {
+  .white-circle {
+    width: 6px;
+    height: 6px; }
+  .section #second-row #ocho-logo {
+    width: 60%; }
+  .section #third-row .slogan-replace {
+    font-size: 30px; }
+  .section #fourth-row .sn-container, .section #fifth-row .sn-container {
+    height: 102px;
+    width: 33%; }
+    .section #fourth-row .sn-container .sn-link .sn-icon, .section #fifth-row .sn-container .sn-link .sn-icon {
+      width: 70% !important;
+      margin-top: 10% !important; } }
+
+@media (min-width: 390px) and (max-width: 459px) {
+  .white-circle {
+    width: 6px;
+    height: 6px; }
+  .section #third-row .slogan-replace {
+    font-size: 30px; }
+  .section #fourth-row .sn-container, .section #fifth-row .sn-container {
+    height: 102px;
+    width: 33%; }
+    .section #fourth-row .sn-container .sn-link .sn-icon, .section #fifth-row .sn-container .sn-link .sn-icon {
+      width: 70% !important;
+      margin-top: 20% !important; } }

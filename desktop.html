@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>8choStudio 2016</title>
+        <meta name="description" content="8choStudio">
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/build/css/index.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,800' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="fonts/font-awesome-4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <?PHP
+            $email = $_POST["email"];
+            $to = "haroldjose2903@gmail.com";
+            $subject = "New Email Address for Mailing List";
+            $headers = "From: $email\n";
+            $message = "A visitor to your site has sent the following email address to be added to your mailing list.\n
+
+            Email Address: $email";
+            $user = "$email";
+            $usersubject = "Thank You";
+            $userheaders = "From: haroldjose2903@gmail.com\n";
+            $usermessage = "Thank you for subscribing to our mailing list.";
+            mail($to,$subject,$message,$headers);
+            mail($user,$usersubject,$usermessage,$userheaders);
+        ?>
+        <div class="off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+                <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+                    <button class="close-button" aria-label="Close menu" type="button" data-close>
+                            <span aria-hidden="true">&times;</span>
+                    </button>
+
+                    <form  action="mailto:haroldjose2903z@gmail.com" method="POST" enctype="multipart/form-data">
+                        <h4 class="form-title">
+                            ¡Deja tus datos para contactarte!
+                        </h4>
+                        <p class="form-p">
+                            Déjanos tus datos y te escribiremos cuando recibamos tu información.
+                        </p>
+                        <div class="row">
+                            <label>
+                                <input name="fullname" type="text" placeholder="Nombre y Apellido">
+                            </label>
+                        </div>
+                        <div class="row">
+                            <label>
+                                <input name="email" type="email" placeholder="Correo Electrónico">
+                            </label>
+                        </div>
+                        <div class="row">
+                            <label>
+                                <input name="phone" type="tel" placeholder="Número de Teléfono">
+                            </label>
+                        </div>
+                        <div class="row">
+                            <label>
+                                <textarea name="description" placeholder="Describe tu caso"></textarea>
+                            </label>
+                        </div>
+                        <button type="submit" class="secondary button">Enviar</button>
+                    </form>            
+                </div>
+                <div class="off-canvas-content" data-off-canvas-content>
+                <div class="section">
+                    <div class="expanded row" id="first-row">
+                        <div class="large-1 medium-1 small-1 columns">
+                            
+                        </div>
+                        <div class="large-7 medium-7 small-7 large-offset-4 columns" id="sn-col-container">
+                            <div class="large-2 medium-2 small-2 columns sn-col">
+                                <div class="white-circle left-0 top-0"></div>
+                                <div class="white-circle right-0 top-0"></div>
+                                <div class="sn-container">
+                                    <a class="sn-link" data-toggle="offCanvas">
+                                        <img src="img/contacto_8cho.svg" alt="" class="sn-icon">
+                                    </a>
+                                    <h4 class="description">
+                                        Contactanos
+                                    </h4>    
+                                </div>
+                                
+                                <div class="white-circle left-0 bottom-0"></div>
+                                <div class="white-circle right-0 bottom-0"></div>
+                            </div>
+                            <div class="large-2 medium-2 small-2 columns sn-col">
+                                <!-- <div class="white-circle"></div> -->
+                                <div class="white-circle right-0 top-0"></div>
+                                <div class="sn-container">
+                                    <a href="" class="sn-link">
+                                        <img src="img/ofertadeservicios_8cho.svg" alt="" class="sn-icon">
+                                    </a>    
+                                    <h4 class="description">
+                                        Descarga nuestra oferta de servicios
+                                    </h4>
+                                </div>
+                                <!-- <div class="white-circle"></div> -->
+                                <div class="white-circle right-0 bottom-0"></div>
+                            </div>
+                            <div class="large-2 medium-2 small-2 columns sn-col">
+                                <!-- <div class="white-circle"></div> -->
+                                <div class="white-circle right-0 top-0"></div>
+                                <div class="sn-container">
+                                    <a href="" class="sn-link">
+                                        <img src="img/behance_8cho.svg" alt="" class="sn-icon">
+                                    </a>
+                                    <h4 class="description">
+                                        Portafolio
+                                    </h4>
+                                </div>
+                                <!-- <div class="white-circle"></div> -->
+                                <div class="white-circle right-0 bottom-0"></div>
+                            </div>
+                            <div class="large-2 medium-2 small-2 columns sn-col">
+                                <!-- <div class="white-circle"></div> -->
+                                <div class="white-circle right-0 top-0"></div>
+                                <div class="sn-container">
+                                    <a href="" class="sn-link">
+                                        <img src="img/instagram_8cho.svg" alt="" class="sn-icon">
+                                    </a>
+                                    <h4 class="description">
+                                        Instagram
+                                    </h4>
+                                </div>
+                                <!-- <div class="white-circle"></div> -->
+                                <div class="white-circle right-0 bottom-0"></div>
+                            </div>
+                            <div class="large-2 medium-2 small-2 columns sn-col">
+                                <!-- <div class="white-circle"></div> -->
+                                <div class="white-circle right-0 top-0"></div>
+                                <div class="sn-container">
+                                    <a href="" class="sn-link">
+                                        <img src="img/vimeo_8cho.svg" alt="" class="sn-icon">
+                                    </a>
+                                    <h4 class="description">
+                                        Vimeo
+                                    </h4>
+                                </div>
+                                <!-- <div class="white-circle"></div> -->
+                                <div class="white-circle right-0 bottom-0"></div>
+                            </div>
+                            <div class="large-2 medium-2 small-2 columns sn-col">
+                                <!-- <div class="white-circle"></div> -->
+                                <div class="white-circle right-0 top-0"></div>
+                                <div class="sn-container">
+                                    <a href="" class="sn-link">
+                                        <img src="img/facebook_8cho.svg" alt="" class="sn-icon">
+                                    </a>    
+                                    <h4 class="description">
+                                        Facebook
+                                    </h4>
+                                </div>
+                                <!-- <div class="white-circle"></div> -->
+                                <div class="white-circle right-0 bottom-0"></div>
+                            </div>
+                        </div>        
+                    </div>
+                    <div class="expanded row" id="second-row">
+                        <div class="large-4 medium-4 small-4 columns" id="logo-col">
+                            <img src="img/logo_8cho.svg" alt="" class="ocho-logo">
+                        </div>
+                        <div class="large-8 medium-8 small-8 columns" id="slogan-col">
+                            <img src="img/tagline_8cho.svg" alt="" class="ocho-slogan">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="expanded large-12 medium-12 small-12 columns">
+                            
+                        </div>
+                    </div>
+                    <div class="expanded row" id="third-row">
+                        <div class="large-3 medium-3 small-3 columns gif-col">
+                            <img src="img/grafica-1_8cho.svg" alt="" class="decoration">
+                            <a href="" class="service-link">
+                                <img src="img/gif/ojo.gif" alt="" class="service-gif">
+                            </a>
+                            <img src="img/grafica-2_8cho.svg" alt="" class="decoration">
+                        </div>
+                        <div class="large-2 medium-2 small-2 columns gif-col">
+                            <a href="" class="service-link">
+                                <img src="img/gif/editorial.gif" alt="" class="service-gif">
+                            </a>
+                            <img src="img/grafica-3_8cho.svg" alt="" class="decoration">
+                        </div>
+                        <div class="large-2 medium-2 small-2 columns gif-col">
+                            <a href="" class="service-link">
+                                <img src="img/gif/flechas.gif" alt="" class="service-gif">
+                            </a>
+                            <img src="img/grafica-4_8cho.svg" alt="" class="decoration">
+                        </div>
+                        <div class="large-2 medium-2 small-2 columns gif-col">
+                            <a href="" class="service-link">
+                                <img src="img/gif/red.gif" alt="" class="service-gif">
+                            </a>
+                        </div>
+                        <div class="large-3 medium-3 small-3 columns gif-col">
+                            <img src="img/grafica-5_8cho.svg" alt="" class="decoration">
+                            <a href="" class="service-link">
+                                <img src="img/gif/engranajes.gif" alt="" class="service-gif">
+                            </a>
+                            <img src="img/grafica-6_8cho.svg" alt="" class="decoration">
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    
+        
+
+        <script src="js/jquery.js"></script>
+        <script src="js/what-input.js"></script>
+        <script src="js/foundation.js"></script>
+        <script>
+          $(document).foundation();
+        </script>
+    </body>
+</html>

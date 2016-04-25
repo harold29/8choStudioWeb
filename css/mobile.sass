@@ -1,0 +1,173 @@
+$ocho_amarillo: #fdd109
+
+.off-canvas-wrapper, .off-canvas-content
+    background-color: $ocho_amarillo
+
+.pcontainer, body
+	background-color: $ocho_amarillo
+
+#offCanvas 
+    background-color: $ocho_amarillo
+    form 
+        margin-top: 50%
+        padding-left: 5%
+        padding-right: 5%
+        textarea
+            height: 150px
+        button 
+            background-color: black
+            color: $ocho_amarillo
+            &:hover
+                box-shadow: 1px 2px 5px 4px black;
+                transition: box-shadow 0.2s ease-in-out
+
+.white-circle 
+	width: 4px
+	height: 4px
+	background-color: white
+	border-radius: 50%
+
+.left-0
+    left: 0px
+.right-0
+    right: 0px
+.top-0
+    top: 0px
+.bottom-0
+    bottom: 0
+
+.section
+	#first-row
+		padding-top: 10%
+		.circle-container
+			text-align: center
+			.white-circle
+				display: inline-block
+
+	#second-row
+		text-align: left
+		#ocho-logo
+			width: 70%
+
+	#third-row
+		text-align: left
+		background-color: $ocho_amarillo
+		.slogan-replace
+			font-size: 25px
+			margin-left: 20%
+			margin-right: 20%
+			margin-top: -10%
+			margin-bottom: 10%
+
+	#fourth-row, #fifth-row
+		margin-right: 10%
+		margin-left: 10%
+		.sn-container
+			text-align: center
+			position: relative
+			padding-left: 0
+			padding-right: 0
+			height: 80px
+			width: 33%
+			.white-circle
+				position: absolute
+			.sn-link
+				.sn-icon
+					width: 80%
+					margin-top: 10%			
+
+	#fifth-row
+
+
+@media (min-width: 670px)
+	.white-circle 
+		width: 6px
+		height: 6px
+
+	.section
+		#second-row
+			#ocho-logo
+				width: 40%
+
+		#third-row
+			.slogan-replace
+				font-size: 30px
+				margin-right: 45%
+
+		#fourth-row, #fifth-row
+			.sn-container
+				height: 176px
+				width: 33%
+				.sn-link
+					.sn-icon
+						width: 50% !important
+						margin-top: 22% !important
+
+
+@media (min-width: 540px) and (max-width: 669px)
+	.white-circle 
+		width: 6px
+		height: 6px
+
+	.section
+		#second-row
+			#ocho-logo
+				width: 50%
+
+		#third-row
+			.slogan-replace
+				font-size: 30px
+
+		#fourth-row, #fifth-row
+			.sn-container
+				height: 102px
+				width: 33%
+				.sn-link
+					.sn-icon
+						width: 60% !important
+						margin-top: 10% !important
+
+
+@media (min-width: 460px) and (max-width: 539px)
+	.white-circle 
+		width: 6px
+		height: 6px
+
+	.section
+		#second-row
+			#ocho-logo
+				width: 60%
+
+		#third-row
+			.slogan-replace
+				font-size: 30px
+
+		#fourth-row, #fifth-row
+			.sn-container
+				height: 102px
+				width: 33%
+				.sn-link
+					.sn-icon
+						width: 70% !important
+						margin-top: 10% !important
+
+
+@media (min-width: 390px) and (max-width: 459px)
+	.white-circle 
+		width: 6px
+		height: 6px
+
+	.section
+
+		#third-row
+			.slogan-replace
+				font-size: 30px
+
+		#fourth-row, #fifth-row
+			.sn-container
+				height: 102px
+				width: 33%
+				.sn-link
+					.sn-icon
+						width: 70% !important
+						margin-top: 20% !important
