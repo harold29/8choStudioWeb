@@ -1,0 +1,16 @@
+@media (max-width: $screen-xs-max) {
+  .logo {
+    top: 70%;
+  }
+  .slogan {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #000;
+    padding-top: 110px;
+  }
+  .hide-xs {
+    display: none;
+  }
+}
