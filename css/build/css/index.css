@@ -3,7 +3,7 @@
     padding-bottom: 8% !important; }
     #second-row #slogan-col .ocho-slogan {
       width: 31% !important;
-      top: 26% !important;
+      top: 36% !important;
       right: 23% !important; } }
 
 @media (min-width: 1230px) and (max-width: 1349px) {
@@ -64,6 +64,8 @@
     margin-top: 50%;
     padding-left: 5%;
     padding-right: 5%; }
+    #offCanvas form .form-title {
+      margin-bottom: 15%; }
     #offCanvas form textarea {
       height: 150px; }
     #offCanvas form button {
@@ -79,12 +81,12 @@
 #first-row {
   height: 20vh; }
   #first-row #sn-col-container {
-    padding-top: 4%;
+    padding-top: 5vh;
     padding-right: 5%; }
     #first-row #sn-col-container .sn-col {
       text-align: center;
       position: relative;
-      height: 120px !important;
+      height: 16vh !important;
       padding-left: 0;
       padding-right: 0;
       padding-top: 2%; }
@@ -124,7 +126,8 @@
     padding-right: 0;
     padding-left: 0; }
     #second-row #logo-col .ocho-logo {
-      width: 65%; }
+      width: 65%;
+      margin-top: 13vh; }
   #second-row #slogan-col .ocho-slogan {
     width: 32%;
     position: absolute;
@@ -136,14 +139,22 @@
   height: 20vh;
   padding-top: 1%;
   background-color: white; }
+  #third-row #decoration-first-col {
+    margin-left: 2%; }
+    #third-row #decoration-first-col img {
+      width: 12%;
+      margin-top: 36%; }
   #third-row .gif-col {
     display: block;
     padding-left: 0;
-    padding-right: 0; }
+    padding-right: 0;
+    text-align: right; }
     #third-row .gif-col .decoration {
       width: 28%; }
-    #third-row .gif-col .service-link .service-gif {
-      width: 35%; }
+    #third-row .gif-col .service-link {
+      margin-right: 10%; }
+      #third-row .gif-col .service-link .service-gif {
+        width: 35%; }
     #third-row .gif-col .decoration, #third-row .gif-col .service-gif {
       display: inline-block; }
   #third-row .large-2 .service-link .service-gif {

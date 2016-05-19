@@ -1,11 +1,13 @@
 .off-canvas-wrapper, .off-canvas-content {
-  background-color: #fdd109; }
+  background-color: #fdd109;
+  height: 100vh; }
 
 .pcontainer, body {
   background-color: #fdd109; }
 
 #offCanvas {
-  background-color: #fdd109; }
+  background-color: #fdd109;
+  height: 100vh; }
   #offCanvas form {
     margin-top: 50%;
     padding-left: 5%;
@@ -38,28 +40,31 @@
   bottom: 0; }
 
 .section #first-row {
-  padding-top: 10%; }
+  padding-top: 10%;
+  height: 15vh; }
   .section #first-row .circle-container {
     text-align: center; }
     .section #first-row .circle-container .white-circle {
       display: inline-block; }
 
 .section #second-row {
+  height: 25vh;
+  margin-top: 2%;
   text-align: left; }
   .section #second-row #ocho-logo {
     width: 70%; }
 
 .section #third-row {
+  height: 25vh;
   text-align: left;
   background-color: #fdd109; }
   .section #third-row .slogan-replace {
     font-size: 25px;
     margin-left: 20%;
-    margin-right: 20%;
-    margin-top: -10%;
-    margin-bottom: 10%; }
+    margin-right: 20%; }
 
 .section #fourth-row, .section #fifth-row {
+  height: 15vh;
   margin-right: 10%;
   margin-left: 10%; }
   .section #fourth-row .sn-container, .section #fifth-row .sn-container {

@@ -4,15 +4,16 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>8choStudio 2016</title>
+        <title>8choStudio</title>
         <meta name="description" content="8choStudio">
         <link rel="stylesheet" href="css/foundation.css">
         <link rel="stylesheet" href="css/build/css/index.css">
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,800' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="fonts/font-awesome-4.5.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="ocho.ico" />
     </head>
     <body>
-        <?PHP
+        <!--<?PHP
             $email = $_POST["email"];
             $to = "haroldjose2903@gmail.com";
             $subject = "New Email Address for Mailing List";
@@ -26,7 +27,16 @@
             $usermessage = "Thank you for subscribing to our mailing list.";
             mail($to,$subject,$message,$headers);
             mail($user,$usersubject,$usermessage,$userheaders);
-        ?>
+        ?>-->
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-77655007-1', 'auto');
+              ga('send', 'pageview');
+        </script>
         <div class="off-canvas-wrapper">
             <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
                 <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
@@ -34,13 +44,13 @@
                             <span aria-hidden="true">&times;</span>
                     </button>
 
-                    <form  action="mailto:haroldjose2903z@gmail.com" method="POST" enctype="multipart/form-data">
+                    <form action="" method="POST" enctype="multipart/form-data">
                         <h4 class="form-title">
                             ¡Deja tus datos para contactarte!
                         </h4>
-                        <p class="form-p">
+                        <!--<p class="form-p">
                             Déjanos tus datos y te escribiremos cuando recibamos tu información.
-                        </p>
+                        </p>-->
                         <div class="row">
                             <label>
                                 <input name="fullname" type="text" placeholder="Nombre y Apellido">
@@ -61,7 +71,7 @@
                                 <textarea name="description" placeholder="Describe tu caso"></textarea>
                             </label>
                         </div>
-                        <button type="submit" class="secondary button">Enviar</button>
+                        <button type="submit" name="submit" value="Submit" class="secondary button">Enviar</button>
                     </form>            
                 </div>
                 <div class="off-canvas-content" data-off-canvas-content>
@@ -79,7 +89,7 @@
                                         <img src="img/contacto_8cho.svg" alt="" class="sn-icon">
                                     </a>
                                     <h4 class="description">
-                                        Contactanos
+                                        Contáctanos
                                     </h4>    
                                 </div>
                                 
@@ -90,7 +100,7 @@
                                 <!-- <div class="white-circle"></div> -->
                                 <div class="white-circle right-0 top-0"></div>
                                 <div class="sn-container">
-                                    <a href="" class="sn-link">
+                                    <a href="oferta-de-servicios-8cho-Studio.pdf" target="_blank" class="sn-link" download>
                                         <img src="img/ofertadeservicios_8cho.svg" alt="" class="sn-icon">
                                     </a>    
                                     <h4 class="description">
@@ -104,7 +114,7 @@
                                 <!-- <div class="white-circle"></div> -->
                                 <div class="white-circle right-0 top-0"></div>
                                 <div class="sn-container">
-                                    <a href="" class="sn-link">
+                                    <a href="https://behance.com/8chostudio" target="_blank" class="sn-link">
                                         <img src="img/behance_8cho.svg" alt="" class="sn-icon">
                                     </a>
                                     <h4 class="description">
@@ -118,7 +128,7 @@
                                 <!-- <div class="white-circle"></div> -->
                                 <div class="white-circle right-0 top-0"></div>
                                 <div class="sn-container">
-                                    <a href="" class="sn-link">
+                                    <a href="http://instagram.com/8chostudio" target="_blank" class="sn-link">
                                         <img src="img/instagram_8cho.svg" alt="" class="sn-icon">
                                     </a>
                                     <h4 class="description">
@@ -132,7 +142,7 @@
                                 <!-- <div class="white-circle"></div> -->
                                 <div class="white-circle right-0 top-0"></div>
                                 <div class="sn-container">
-                                    <a href="" class="sn-link">
+                                    <a href="https://vimeo.com/8chostudio" target="_blank" class="sn-link">
                                         <img src="img/vimeo_8cho.svg" alt="" class="sn-icon">
                                     </a>
                                     <h4 class="description">
@@ -146,7 +156,7 @@
                                 <!-- <div class="white-circle"></div> -->
                                 <div class="white-circle right-0 top-0"></div>
                                 <div class="sn-container">
-                                    <a href="" class="sn-link">
+                                    <a href="https://www.facebook.com/8chostudio/" target="_blank" class="sn-link">
                                         <img src="img/facebook_8cho.svg" alt="" class="sn-icon">
                                     </a>    
                                     <h4 class="description">
@@ -160,10 +170,10 @@
                     </div>
                     <div class="expanded row" id="second-row">
                         <div class="large-4 medium-4 small-4 columns" id="logo-col">
-                            <img src="img/logo_8cho.svg" alt="" class="ocho-logo">
+                            <img src="img/logo-8cho-recortado.svg" alt="" class="ocho-logo">
                         </div>
                         <div class="large-8 medium-8 small-8 columns" id="slogan-col">
-                            <img src="img/tagline_8cho.svg" alt="" class="ocho-slogan">
+                            <img src="img/tagline-8cho-recortado.png" alt="" class="ocho-slogan">
                         </div>
                     </div>
                     <div class="row">
@@ -172,8 +182,10 @@
                         </div>
                     </div>
                     <div class="expanded row" id="third-row">
-                        <div class="large-3 medium-3 small-3 columns gif-col">
-                            <img src="img/grafica-1_8cho.svg" alt="" class="decoration">
+                        <div class="large-1 medium-1 small-1 columns gif-col" id="decoration-first-col">
+                            <img src="img/grafica-1_8cho.png" alt="" class="decoration">
+                        </div>
+                        <div class="large-2 medium-2 small-2 columns gif-col">
                             <a href="" class="service-link">
                                 <img src="img/gif/ojo.gif" alt="" class="service-gif">
                             </a>
@@ -195,9 +207,9 @@
                             <a href="" class="service-link">
                                 <img src="img/gif/red.gif" alt="" class="service-gif">
                             </a>
-                        </div>
-                        <div class="large-3 medium-3 small-3 columns gif-col">
                             <img src="img/grafica-5_8cho.svg" alt="" class="decoration">
+                        </div>
+                        <div class="large-2 medium-2 small-2 columns gif-col end">
                             <a href="" class="service-link">
                                 <img src="img/gif/engranajes.gif" alt="" class="service-gif">
                             </a>
