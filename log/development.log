@@ -1,0 +1,263 @@
+# Logfile created on 2016-02-22 01:39:18 -0300 by logger.rb/53141
+== Activating: file_watcher
+== Activating: front_matter
+== Activating: data
+== Activating: inline_url_rewriter
+== Activating: sitemap_ondisk
+== Activating: sitemap_import
+== Activating: sitemap_endpoint
+== Activating: sitemap_proxies
+== Activating: sitemap_redirects
+== Activating: sitemap_move_files
+== Activating: sitemap_ignore
+== Activating: show_exceptions
+== Activating: external_helpers
+== Activating: erb_renderer
+== Activating: coffee_renderer
+== Activating: haml_renderer
+== Activating: sass_renderer
+== Activating: markdown_renderer
+== Failed Activation `liquid_renderer` : cannot load such file -- liquid
+== Activating: slim_renderer
+== Failed Activation `less_renderer` : cannot load such file -- less
+== Failed Activation `stylus_renderer` : cannot load such file -- stylus
+== Activating: default_helpers
+== Activating: lorem
+== Activating: routing
+== Activating: collections
+== Activating: compass
+== Change (#<Set: {:source}>): layouts/layout.slim
+== Change (#<Set: {:source}>): index.html.slim
+== Change (#<Set: {:source}>): images/footer/eye.gif
+== Change (#<Set: {:source}>): images/footer/network.gif
+== Change (#<Set: {:source}>): images/footer/gears.gif
+== Change (#<Set: {:source}>): images/footer/editorial.gif
+== Change (#<Set: {:source}>): images/footer/arrows.gif
+== Change (#<Set: {:source}>): images/middleman-logo.svg
+== Change (#<Set: {:source}>): javascripts/all.js
+== Change (#<Set: {:source}>): stylesheets/site.css.scss
+== Change (#<Set: {:source}>): stylesheets/_8cho-studio.scss
+== Change (#<Set: {:source}>): stylesheets/vars/_8cho-studio-vars.scss
+== Change (#<Set: {:source}>): stylesheets/vars/_colors.scss
+== Change (#<Set: {:source}>): stylesheets/_DINPro-Regular.scss
+== Change (#<Set: {:source}>): stylesheets/mixins/_helpers.scss
+== Change (#<Set: {:source}>): stylesheets/_normalize.scss
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.ttf
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.otf
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.woff
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.svg
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.svg
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.woff
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.eot
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.ttf
+== Rebuilding resource list
+== Reading: Local config: config.rb
+== Requesting resource list rebuilding: first_run_change_page
+== Requesting resource list rebuilding: first_run_change_page
+== Requesting resource list rebuilding: first_run_change_page
+== Activating: livereload
+Loaded extensions:
+== Extension: file_watcher
+== Extension: front_matter
+== Extension: data
+== Extension: inline_url_rewriter
+== Extension: sitemap_ondisk
+== Extension: sitemap_import
+== Extension: sitemap_endpoint
+== Extension: sitemap_proxies
+== Extension: sitemap_redirects
+== Extension: sitemap_move_files
+== Extension: sitemap_ignore
+== Extension: show_exceptions
+== Extension: external_helpers
+== Extension: erb_renderer
+== Extension: coffee_renderer
+== Extension: haml_renderer
+== Extension: sass_renderer
+== Extension: markdown_renderer
+== Extension: slim_renderer
+== Extension: default_helpers
+== Extension: lorem
+== Extension: routing
+== Extension: collections
+== Extension: compass
+== Extension: livereload
+== Change (#<Set: {:source}>): layouts/layout.slim
+== Change (#<Set: {:source}>): index.html.slim
+== Change (#<Set: {:source}>): images/footer/eye.gif
+== Change (#<Set: {:source}>): images/footer/network.gif
+== Change (#<Set: {:source}>): images/footer/gears.gif
+== Change (#<Set: {:source}>): images/footer/editorial.gif
+== Change (#<Set: {:source}>): images/footer/arrows.gif
+== Change (#<Set: {:source}>): images/middleman-logo.svg
+== Change (#<Set: {:source}>): javascripts/all.js
+== Change (#<Set: {:source}>): stylesheets/site.css.scss
+== Change (#<Set: {:source}>): stylesheets/_8cho-studio.scss
+== Change (#<Set: {:source}>): stylesheets/vars/_8cho-studio-vars.scss
+== Change (#<Set: {:source}>): stylesheets/vars/_colors.scss
+== Change (#<Set: {:source}>): stylesheets/_DINPro-Regular.scss
+== Change (#<Set: {:source}>): stylesheets/mixins/_helpers.scss
+== Change (#<Set: {:source}>): stylesheets/_normalize.scss
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.ttf
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.otf
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.woff
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.svg
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.svg
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.woff
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.eot
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.ttf
+== Rebuilding resource list
+== Requesting resource list rebuilding: touched_file
+== Requesting resource list rebuilding: registered_new_manipulator_front_matter
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_ondisk
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_import
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_endpoint
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_proxies
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_redirects
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_move_files
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_ignore
+== Requesting resource list rebuilding: registered_new_manipulator_routing
+== Requesting resource list rebuilding: registered_new_manipulator_collections
+== Rebuilding resource list
+== Running manipulator: sitemap_ondisk
+== Running manipulator: sitemap_endpoint
+== Running manipulator: sitemap_proxies
+== Running manipulator: sitemap_redirects
+== Running manipulator: sitemap_ignore
+== Running manipulator: sitemap_import
+== Running manipulator: routing
+== Running manipulator: front_matter
+== Running manipulator: sitemap_move_files
+== Running manipulator: collections
+== LiveReload accepting connections from ws://192.168.0.225:35729
+== Activating: file_watcher
+== Activating: front_matter
+== Activating: data
+== Activating: inline_url_rewriter
+== Activating: sitemap_ondisk
+== Activating: sitemap_import
+== Activating: sitemap_endpoint
+== Activating: sitemap_proxies
+== Activating: sitemap_redirects
+== Activating: sitemap_move_files
+== Activating: sitemap_ignore
+== Activating: show_exceptions
+== Activating: external_helpers
+== Activating: erb_renderer
+== Activating: coffee_renderer
+== Activating: haml_renderer
+== Activating: sass_renderer
+== Activating: markdown_renderer
+== Failed Activation `liquid_renderer` : cannot load such file -- liquid
+== Activating: slim_renderer
+== Failed Activation `less_renderer` : cannot load such file -- less
+== Failed Activation `stylus_renderer` : cannot load such file -- stylus
+== Activating: default_helpers
+== Activating: lorem
+== Activating: routing
+== Activating: collections
+== Activating: compass
+== Change (#<Set: {:source}>): layouts/layout.slim
+== Change (#<Set: {:source}>): index.html.slim
+== Change (#<Set: {:source}>): images/footer/eye.gif
+== Change (#<Set: {:source}>): images/footer/network.gif
+== Change (#<Set: {:source}>): images/footer/gears.gif
+== Change (#<Set: {:source}>): images/footer/editorial.gif
+== Change (#<Set: {:source}>): images/footer/arrows.gif
+== Change (#<Set: {:source}>): images/middleman-logo.svg
+== Change (#<Set: {:source}>): javascripts/all.js
+== Change (#<Set: {:source}>): stylesheets/site.css.scss
+== Change (#<Set: {:source}>): stylesheets/_8cho-studio.scss
+== Change (#<Set: {:source}>): stylesheets/vars/_8cho-studio-vars.scss
+== Change (#<Set: {:source}>): stylesheets/vars/_colors.scss
+== Change (#<Set: {:source}>): stylesheets/_DINPro-Regular.scss
+== Change (#<Set: {:source}>): stylesheets/mixins/_helpers.scss
+== Change (#<Set: {:source}>): stylesheets/_normalize.scss
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.ttf
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.otf
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.woff
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.svg
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.svg
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.woff
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.eot
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.ttf
+== Rebuilding resource list
+== Reading: Local config: config.rb
+== Requesting resource list rebuilding: first_run_change_page
+== Requesting resource list rebuilding: first_run_change_page
+== Requesting resource list rebuilding: first_run_change_page
+== Activating: livereload
+Loaded extensions:
+== Extension: file_watcher
+== Extension: front_matter
+== Extension: data
+== Extension: inline_url_rewriter
+== Extension: sitemap_ondisk
+== Extension: sitemap_import
+== Extension: sitemap_endpoint
+== Extension: sitemap_proxies
+== Extension: sitemap_redirects
+== Extension: sitemap_move_files
+== Extension: sitemap_ignore
+== Extension: show_exceptions
+== Extension: external_helpers
+== Extension: erb_renderer
+== Extension: coffee_renderer
+== Extension: haml_renderer
+== Extension: sass_renderer
+== Extension: markdown_renderer
+== Extension: slim_renderer
+== Extension: default_helpers
+== Extension: lorem
+== Extension: routing
+== Extension: collections
+== Extension: compass
+== Extension: livereload
+== Change (#<Set: {:source}>): layouts/layout.slim
+== Change (#<Set: {:source}>): index.html.slim
+== Change (#<Set: {:source}>): images/footer/eye.gif
+== Change (#<Set: {:source}>): images/footer/network.gif
+== Change (#<Set: {:source}>): images/footer/gears.gif
+== Change (#<Set: {:source}>): images/footer/editorial.gif
+== Change (#<Set: {:source}>): images/footer/arrows.gif
+== Change (#<Set: {:source}>): images/middleman-logo.svg
+== Change (#<Set: {:source}>): javascripts/all.js
+== Change (#<Set: {:source}>): stylesheets/site.css.scss
+== Change (#<Set: {:source}>): stylesheets/_8cho-studio.scss
+== Change (#<Set: {:source}>): stylesheets/vars/_8cho-studio-vars.scss
+== Change (#<Set: {:source}>): stylesheets/vars/_colors.scss
+== Change (#<Set: {:source}>): stylesheets/_DINPro-Regular.scss
+== Change (#<Set: {:source}>): stylesheets/mixins/_helpers.scss
+== Change (#<Set: {:source}>): stylesheets/_normalize.scss
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.ttf
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.otf
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.woff
+== Change (#<Set: {:source}>): stylesheets/fonts/DINPro/DINPro-Regular.svg
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.svg
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.woff
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.eot
+== Change (#<Set: {:source}>): stylesheets/fonts/8cho-studio/8cho-studio.ttf
+== Rebuilding resource list
+== Requesting resource list rebuilding: touched_file
+== Requesting resource list rebuilding: registered_new_manipulator_front_matter
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_ondisk
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_import
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_endpoint
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_proxies
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_redirects
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_move_files
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_ignore
+== Requesting resource list rebuilding: registered_new_manipulator_routing
+== Requesting resource list rebuilding: registered_new_manipulator_collections
+== Rebuilding resource list
+== Running manipulator: sitemap_ondisk
+== Running manipulator: sitemap_endpoint
+== Running manipulator: sitemap_proxies
+== Running manipulator: sitemap_redirects
+== Running manipulator: sitemap_ignore
+== Running manipulator: sitemap_import
+== Running manipulator: routing
+== Running manipulator: front_matter
+== Running manipulator: sitemap_move_files
+== Running manipulator: collections
+== LiveReload accepting connections from ws://192.168.0.225:35729

@@ -1,0 +1,132 @@
+@import "vars/8cho-studio-vars";
+
+@font-face {
+    font-family: '8cho-studio';
+    src:    url('#{$icomoon-font-path}/8cho-studio.eot?y324db');
+    src:    url('#{$icomoon-font-path}/8cho-studio.eot?y324db#iefix') format('embedded-opentype'),
+        url('#{$icomoon-font-path}/8cho-studio.ttf?y324db') format('truetype'),
+        url('#{$icomoon-font-path}/8cho-studio.woff?y324db') format('woff'),
+        url('#{$icomoon-font-path}/8cho-studio.svg?y324db#8cho-studio') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@mixin generate-font-sizes {
+  @for $i from 1 through 200 {
+    &._size-#{$i}-x {
+      font-size: $i+0px;
+      @media (max-width: $screen-xs-max) {
+        font-size: ($i - ($i * 0.5))+0px;
+      }
+      @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+        font-size: ($i - ($i * 0.2))+0px;
+      }
+      @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+        font-size: ($i - ($i * 0.4))+0px;
+      }
+    }
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 40%;
+  margin-top: -150px;
+}
+
+.slogan {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #000;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '8cho-studio' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &._size-logo {
+    font-size: 300px;
+    color: #000;
+  }
+  &.instagram {
+      &:before {
+        content: $icon-instagram;
+      }
+  }
+  &.behance {
+      &:before {
+        content: $icon-behance;
+      }
+  }
+  &.contact {
+      &:before {
+        content: $icon-contact;
+      }
+  }
+  &.grafica-1 {
+      &:before {
+        content: $icon-grafica-1;
+      }
+  }
+  &.grafica-2 {
+      &:before {
+        content: $icon-grafica-2;
+      }
+  }
+  &.grafica-3 {
+      &:before {
+        content: $icon-grafica-3;
+      }
+  }
+  &.grafica-4 {
+      &:before {
+        content: $icon-grafica-4;
+      }
+  }
+  &.grafica-5 {
+      &:before {
+        content: $icon-grafica-5;
+      }
+  }
+  &.grafica-6 {
+      &:before {
+        content: $icon-grafica-6;
+      }
+  }
+  &.logo {
+      &:before {
+        content: $icon-logo;
+      }
+  }
+  &.services {
+      &:before {
+        content: $icon-services;
+      }
+  }
+  &.vimeo {
+      &:before {
+        content: $icon-vimeo;
+      }
+  }
+  &.facebook {
+      &:before {
+        content: $icon-facebook;
+      }
+  }
+  @include generate-font-sizes;
+}
