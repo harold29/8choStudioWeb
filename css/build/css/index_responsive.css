@@ -3,7 +3,7 @@
     padding-bottom: 8% !important; }
     #second-row #slogan-col .ocho-slogan {
       width: 31% !important;
-      top: 36% !important;
+      top: 37vh !important;
       right: 23% !important; } }
 
 @media (min-width: 1230px) and (max-width: 1349px) {
@@ -15,7 +15,7 @@
       padding-top: 2% !important; }
     #second-row #slogan-col .ocho-slogan {
       width: 31% !important;
-      top: 32% !important;
+      top: 37vh !important;
       right: 25% !important; } }
 
 @media (min-width: 992px) and (max-width: 1229px) {
@@ -32,7 +32,7 @@
       padding-top: 5% !important; }
     #second-row #slogan-col .ocho-slogan {
       width: 31% !important;
-      top: 23% !important;
+      top: 42vh !important;
       right: 23% !important; } }
 
 @media (min-width: 992px) and (max-width: 1229px) {
@@ -49,5 +49,5 @@
       padding-top: 5% !important; }
     #second-row #slogan-col .ocho-slogan {
       width: 31% !important;
-      top: 23% !important;
+      top: 42vh !important;
       right: 23% !important; } }
